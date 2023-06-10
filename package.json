@@ -1,0 +1,21 @@
+{
+  "name": "geist-ui-theme",
+  "displayName": "geist-ui-theme",
+  "description": "this theme is inspired by the vercel geist ui design system",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "geist",
+        "uiTheme": "vs-dark",
+        "path": "./themes/geist-color-theme.json"
+      }
+    ]
+  }
+}

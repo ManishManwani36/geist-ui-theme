@@ -1,14 +1,15 @@
 {
   "name": "geist-ui-theme",
-  "displayName": "geist-ui-theme",
-  "description": "this theme is inspired by the vercel geist ui design system",
-  "version": "0.0.1",
+  "displayName": "Geist UI",
+  "description": "Geist UI is a dark theme for VS Code based on a mix of the Vercel Geist design system and Shadcn UI.",
+  "version": "0.1.1",
   "engines": {
     "vscode": "^1.79.0"
   },
   "categories": [
     "Themes"
   ],
+  "icon": "images/icon.png",
   "contributes": {
     "themes": [
       {
@@ -17,5 +18,13 @@
         "path": "./themes/geist-color-theme.json"
       }
     ]
+  },
+  "author": {
+    "name": "Manish Manwani",
+    "email": "manishmanwani73@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ManishManwani36/geist-ui-theme"
   }
 }
